@@ -6,7 +6,7 @@ inventory vehicleParamTester(telematics *st_vehicle_input)
 {
  inventory st_vehicle_output;
  
- switch(st_vehicle_input->measure_type)
+ switch(st_vehicle_input->type)
  {
   case motor_temp:
     st_vehicle_output->motor_temp = st_vehicle_input->measurement;
