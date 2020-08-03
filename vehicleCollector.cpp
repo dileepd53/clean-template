@@ -16,6 +16,6 @@ inventory vehicleParamTester(telematics *st_vehicle_input)
   break;
  }
  
-return st_vehicle_output;
+return *st_vehicle_output;
  
 }
