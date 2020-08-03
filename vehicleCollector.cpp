@@ -4,7 +4,7 @@
 
 inventory vehicleParamTester(telematics *st_vehicle_input)
 {
- inventory st_vehicle_output;
+ inventory *st_vehicle_output;
  
  switch(st_vehicle_input->type)
  {
