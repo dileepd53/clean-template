@@ -1,2 +1,2 @@
 all:
-	g++ -Wall -Wextra -o testchecker *.cpp -lgtest -lpthread 
+	g++ -Wall -Wextra -o vehicle-collector-test *.cpp -lgtest -lpthread 
