@@ -1,5 +1,6 @@
+#include "vehicleCollector.h"
 #include <gtest/gtest.h>
-#include <vehicleCollector.h>
+
 
 TEST(VehicleTest, when_vehicle_reports_a_measuerement_it_is_fetched_and_stored){
  
