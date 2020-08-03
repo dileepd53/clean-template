@@ -12,7 +12,7 @@ enum measure
 struct telematics
 {
   int vehicle_id;
-  measure_type;
+  measure type;
   float measurement;
 };
 
