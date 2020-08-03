@@ -14,7 +14,7 @@ struct telematics
   int vehicle_id;
   measure_type;
   float measurement;
-}
+};
 
 struct inventory
 {
@@ -22,4 +22,4 @@ struct inventory
   float motor_temp;
   float battery_per;
   float battery_temp;
-}
+};
