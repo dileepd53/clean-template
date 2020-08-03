@@ -23,3 +23,6 @@ struct inventory
   float battery_per;
   float battery_temp;
 };
+
+
+inventory vehicleParamTester(telematics *st_vehicle_input);
