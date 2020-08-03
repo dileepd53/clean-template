@@ -1,9 +1,12 @@
 #include <gtest/gtest.h>
- 
+#include <vehicleCollector.h>
+
 TEST(VehicleTest, when_vehicle_reports_a_measuerement_it_is_fetched_and_stored){
-  
- vehicle_param_val = vehicleTester(vehicle_id, en_key);
- ASSERT_EQ(vehicle_param_val, EN_DATA_AVAILABLE); 
+ 
+ telematics vehicle_input_param  = {231, motor_temp,30};
+ inventory vehicle_output_param = vehicleParamTester(&vehicle_input_param); 
+ 
+ ASSERT_EQ(vehicle__output_param.motor_temp, 30); 
  
 }
 
