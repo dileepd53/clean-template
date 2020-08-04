@@ -25,4 +25,4 @@ struct inventory
 };
 
 
-inventory vehicleParamTester(telematics *st_vehicle_input);
+inventory vehicleParamTester(const telematics &st_vehicle_input);
